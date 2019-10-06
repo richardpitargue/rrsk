@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-#id-main-wrapper * {
+#id-main-wrapper > * {
   width: 50%;
   margin: 0;
   padding: 0;
@@ -22,4 +22,5 @@
 #id-main-wrapper p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  margin: 10px 0;
 }

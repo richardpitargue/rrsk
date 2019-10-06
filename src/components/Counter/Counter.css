@@ -1,0 +1,37 @@
+#id-counter-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.counter-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.counter-item span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.counter-item.left {
+  flex-direction: row;
+  justify-content: right;
+}
+
+.counter-item.right {
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.counter-item .counter-button {
+  width: 50px;
+  height: 50px;
+}
